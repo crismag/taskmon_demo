@@ -1,0 +1,5 @@
+package ifneeded MySqlDb 1.0  [list source [file join $dir MySqlDb.tcl]]
+package ifneeded cadws  1.0  [list source [file join $dir cadws.tcl]]
+package ifneeded tma_microsvcs 1.0  [list source [file join $dir ftrf_db.tcl]]
+#package ifneeded wsmgr_helper  0.1  [list source [file join $dir wsmgr_helper.tcl]]
+#package ifneeded cadws_config_vars  0.0  [list source [file join $dir cadws_config_vars.tbc]]
